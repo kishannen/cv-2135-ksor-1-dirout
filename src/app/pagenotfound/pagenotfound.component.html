@@ -12,9 +12,9 @@
   <br />
   <!--NG IF AND NG FOR-->
   <ng-template [ngIf]="showItem">
-    <p>Sorry, the content of this page is missing.</p>
-    <p>I am still constructing my webpage for better experience.</p>
-    <p>Thank you for your kind understanding</p>
+    <p *ngFor="let item of elements">
+      {{ item }}
+    </p>
   </ng-template>
   <button (click)="onButtonClick()">Email Me!</button>
   <p>{{ message }}</p>
