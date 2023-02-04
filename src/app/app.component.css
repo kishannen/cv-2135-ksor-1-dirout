@@ -6,7 +6,12 @@ p {
   background-color: #f9a03f;
   padding: 10px;
   height: 100px;
+  margin: -1%;
+  width: 100.95%;
 }
-.nav-item{
-  
+.nav-item {
+  margin-top: 17px;
+}
+.navbar-brand {
+  padding-left: 10px;
 }
