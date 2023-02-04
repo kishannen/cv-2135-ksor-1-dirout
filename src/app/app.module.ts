@@ -9,6 +9,7 @@ import { Routes, RouterModule } from '@angular/router';
 // Components
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { IndexComponent } from './index/index.component';
 import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
@@ -19,7 +20,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 // ROUTES
 
 const routes: Routes = [
-  { path: '#', component: HelloComponent },
+  { path: '', component: IndexComponent },
   { path: 'about', component: AboutComponent },
   { path: 'education', component: EducationComponent },
   { path: 'skills', component: SkillsComponent },
@@ -29,10 +30,11 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [RouterModule.forRoot(routes), BrowserModule, FormsModule],
   declarations: [
     AppComponent,
     HelloComponent,
+    IndexComponent,
     AboutComponent,
     EducationComponent,
     SkillsComponent,
