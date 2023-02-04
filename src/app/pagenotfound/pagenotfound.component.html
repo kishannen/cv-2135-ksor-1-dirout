@@ -10,10 +10,12 @@
   <h1 id="header" [style.color]="headColor">PAGE NOT FOUND</h1>
   <hr />
   <br />
-  <p>Sorry, the content of this page is missing.</p>
-  <p>I am still constructing my webpage for better experience.</p>
-  <p>Thank you for your kind understanding</p>
-
+  <!--NG IF AND NG FOR-->
+  <ng-template [ngIf]="showItem">
+    <p>Sorry, the content of this page is missing.</p>
+    <p>I am still constructing my webpage for better experience.</p>
+    <p>Thank you for your kind understanding</p>
+  </ng-template>
   <button (click)="onButtonClick()">Email Me!</button>
   <p>{{ message }}</p>
 </div>

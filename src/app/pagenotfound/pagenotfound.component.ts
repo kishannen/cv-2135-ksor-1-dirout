@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PagenotfoundComponent implements OnInit {
   
   headColor = 'brown';
+  showItem = true;
   
   message = '';
   onButtonClick() {
