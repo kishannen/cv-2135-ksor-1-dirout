@@ -1,0 +1,9 @@
+p {
+  font-family: Lato;
+}
+.container-fluid {
+  font-weight: bolder;
+  background-color: #f9a03f;
+  padding: 10px;
+  margin-top: -1.5%;
+}

@@ -1,0 +1,13 @@
+body {
+  background-color: #e49350;
+  color: white;
+}
+h2 {
+  align-items: center;
+  color: brown;
+  margin-left: 40%;
+  padding-top: 35px;
+}
+.accordion {
+  width: 100%;
+}

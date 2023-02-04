@@ -1,0 +1,20 @@
+html {
+  background-color: #c58940;
+}
+body {
+  background-color: #c58940;
+}
+.p-3 {
+  background-color: white;
+  width: 100%;
+}
+.p-3 h3 {
+  color: #422604;
+  font-size: xx-large;
+}
+h2 {
+  align-items: center;
+  color: white;
+  margin-left: 35%;
+  padding-top: 35px;
+}

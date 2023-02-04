@@ -1,0 +1,20 @@
+html {
+  background-color: #e6c9a5;
+}
+body {
+  background-color: #e7d2b9;
+}
+.g-col-6 g-col-md-4 {
+  background-color: white;
+  width: 100%;
+}
+.g-col-6 g-col-md-4 h3 {
+  color: #422604;
+  font-size: xx-large;
+}
+h2 {
+  align-items: center;
+  color: rgb(7, 0, 0);
+  margin-left: 45%;
+  padding-top: 35px;
+}
