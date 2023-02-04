@@ -3,13 +3,18 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-pagenotfound',
   templateUrl: './pagenotfound.component.html',
-  styleUrls: ['./pagenotfound.component.css']
+  styleUrls: ['./pagenotfound.component.css'],
 })
 export class PagenotfoundComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+  
+  headColor = 'brown';
+  
+  message = '';
+  onButtonClick() {
+    this.message = 'kisses.reyes010@gmail.com';
   }
 
+  constructor() {}
+
+  ngOnInit() {}
 }
