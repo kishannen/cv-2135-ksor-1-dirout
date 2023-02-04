@@ -6,3 +6,8 @@ body {
 button.accordion-button {
   background-color: #f0af7a;
 }
+
+.accordion-body {
+  font-size: large;
+  font-weight: 200;
+}
