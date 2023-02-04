@@ -13,6 +13,7 @@ export class PagenotfoundComponent implements OnInit {
     'I am still constructing my website for better experience.',
     'Thank you for your kind understanding',
   ];
+  appliedClass = true;
 
   message = '';
   onButtonClick() {
