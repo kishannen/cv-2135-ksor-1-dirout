@@ -2,3 +2,7 @@ body {
   background-color: #e49350;
   color: white;
 }
+
+button.accordion-button {
+  background-color: #f0af7a;
+}
